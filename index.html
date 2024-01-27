@@ -3,16 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Phạm Văn Phong Portfolio</title>
+
+    <!-- box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>This is pvphong website</h1>
-    <ul>
-        <li><a href="#">Project 1</a></li>
-        <li><a href="#">Project 2</a></li>
-        <li><a href="#">Project 3</a></li>
-        <li><a href="#">Project 4</a></li>
-        <li><a href="#">Project 5</a></li>
-    </ul>
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home section  -->
+    <section class="home" id="home">
+        <!-- Home Content -->
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Pham Van Phong</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Magnam ducimus eveniet ut quam dolore! Mollitia harum suscipit, soluta dolorem consectetur? Eaque ipsum asperiores, pariatur iusto voluptate ad, deserunt consectetur ex?</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        
+        <!-- Home image -->
+        <div class="home-img">
+            <img src="./images/pham_van_phong_hd.png" alt="Pham Van Phong">
+        </div>
+
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/pham_van_phong_hd.png" alt="Pham Van Phong">
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
 </body>
 </html>
