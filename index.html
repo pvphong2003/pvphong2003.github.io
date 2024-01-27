@@ -33,7 +33,7 @@
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Pham Van Phong</h1>
-            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Magnam ducimus eveniet ut quam dolore! Mollitia harum suscipit, soluta dolorem consectetur? Eaque ipsum asperiores, pariatur iusto voluptate ad, deserunt consectetur ex?</p>
             <div class="social-media">
                 <a href="#"><i class='bx bxl-facebook' ></i></a>
@@ -160,6 +160,42 @@
 
     </section>
 
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+
+            <div class="input-box">
+                <input type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" name="phone" id="phone" placeholder="Mobile Number" required>
+                <input type="text" name="email-subject" id="email-subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="email-content" id="email-content" cols="30" rows="6" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Pham Van Phong | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icon-top">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="./js/scrollreveal.js"></script>
+
+    <!-- Typed JS -->
+    <script src="./js/typed.umd.js"></script>
+
+    <!-- Custom JS -->
     <script src="./js/script.js"></script>
 </body>
 </html>
